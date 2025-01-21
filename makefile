@@ -3,6 +3,7 @@ setup-git:
 	@echo "setup git for ucloud"
 	git config --global user.email "you@example.com"
 	git config --global user.name "Kenneth (Ucloud)"
+	git config pull.rebase false
 
 install-uv:
 	@echo "installs uv"
