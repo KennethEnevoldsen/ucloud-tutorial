@@ -2,7 +2,7 @@
 setup-git:
 	@echo "setup git for ucloud"
 	git config --global user.email "you@example.com"
-	git config --global user.name "Your Name (Ucloud)"
+	git config --global user.name "Kenneth (Ucloud)"
 
 install-uv:
 	@echo "installs uv"
@@ -20,5 +20,4 @@ run-project:
 setup-on-ucloud:
 	make install-uv
 	make setup-git
-	make install-dependencies
 	make run-project
